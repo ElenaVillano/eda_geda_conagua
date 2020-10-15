@@ -1,0 +1,166 @@
+---
+title: 'Graphical Exploratory Data Analysis (GEDA)'
+subtitle: 'Datos de CONAGUA'
+author: 'Arciaga, Yusuri., López, Carlos., Tejada, Laura. & Villalobos, Elena.'
+output:
+  ioslides_presentation:
+    widescreen: yes
+editor_options:
+  chunk_output_type: console
+---
+
+
+# Introducción
+
+
+## Objetivo
+
+Obtener información sobre el contexto y en alcance de la base de datos de consumo de agua. 
+
+1. Características de generales de la base.
+2. Relación entre alcaldías y consumo de agua. 
+3. Relación entre el índice de desarrollo, alcaldía y consumo de agua. 
+4. Análisis de latitud y longitud de acuerdo al Índice de Desarrollo.
+5. Número de habitantes y consumo de agua.
+6. Análisis de valores faltantes
+7. Preguntas
+
+
+# Características generales de la base | **71102 observaciones** y **17 variables**.
+
+## Mediciones principales del consumo de agua
+
+- `consumo_total`: Que es el consumo total de acuerdo a los medidores instalados o autorizados por el Sistema de Aguas.
+- `comsumo_prom`: Que es un cálculo promedio de consumo de agua que se aplica para cubrir las faltas o fallas en los aparatos de medición. 
+
+## Tipos de consumo de agua
+
+- Doméstico: Uso habitacional (`consumo_prom_dom`, `consumo_total_dom`).
+- No Doméstico: Uso no doméstico (`consumo_prom_no_dom`, `consumo_total_no_dom`).
+- Mixto: uso doméstico y no doméstico (`consumo_total_mixto`, `consumo_prom_mixto`).
+
+## Información de geolocalización
+
+- `alcaldía`: Variable categórica que contiene las 16 alcaldías de la CDMX.
+- `colonia`: Variable categórica que contiene 1340 colonias registradas.
+- `latitud` y `longitud`: Variables numéricas que representan las coordenadas de los medidores. 
+
+## Información temporal
+
+- `bimestre`: que contiene la información de solo tres bimestres.
+- `anio`: que es solo tiene la información del año 2019.
+
+## Índice de desarrollo
+
+Información que diferencía territorialmente a la población de la CDMX de acuerdo a su nivel de desarrollo económico (`indice_des`), agregando la información por colonia, los niveles son:
+
+   - POPULAR: Niveles de desarrollo más bajos de la Ciudad. 
+   - BAJO: Niveles de desarrollo bajo de la Ciudad.
+   - MEDIO: Niveles de desarrollo medio de la Ciudad.
+   - ALTO: Niveles de desarrollo altos de la Ciudad. 
+
+
+# Relación entre alcaldías y consumo de agua
+
+## {.columns-2}
+
+Conteos de 
+
+información 
+
+por alcaldia. 
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot1.png" align="right">
+
+## {.columns-2}
+
+Tipos de 
+
+consumo de agua
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot2.png"  align="right">
+
+## {.columns-2}
+
+Diferencias entre
+
+consumo doméstico y 
+
+consumo no doméstico
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot3.png" align="right">
+
+# Relación entre alcaldías, consumo de agua e Índice de Desarrollo
+
+## {.columns-2}
+
+Consumo total de agua por 
+
+alcaldía e
+
+Índice de Desarrollo
+
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot5.png" align="right">
+
+## {.columns-2}
+
+Consumo promedio de agua por 
+
+alcaldía e
+
+Índice de Desarrollo
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot6.png" align="right">
+
+## {.columns-2}
+
+Análisis de 
+
+latitud y longitud
+
+de acuerdo al 
+
+Índice de Desarrollo
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot12.png" align="right">
+
+## 
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot11.png" align="right" width="550" height="550" >
+
+# Número de habitantes y consumo de agua
+
+
+## {.columns-2}
+
+Habitantes por alcaldía
+
+y consumo de agua doméstico
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot8.png" align="right">
+
+##  {.columns-2}
+
+Habitantes por alcaldía
+
+y consumo de agua no doméstico
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot13.png" align="right">
+
+# Análisis de valores faltantes
+
+##
+
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot9.png" width="800" height="550" >
+
+##
+
+<img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot10.png" width="800" height="550" >
+
+
+## Preguntas
+
+
+

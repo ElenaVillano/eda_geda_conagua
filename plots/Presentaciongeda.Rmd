@@ -160,7 +160,30 @@ y consumo de agua no doméstico
 <img src="~/Documents/ProyectosMCDEquiposGit/eda_geda_conagua/plots/plot10.png" width="800" height="550" >
 
 
-## Preguntas
+# Conclusiones
+
+## ¡Gracias!
+
+
+
+
+RElación entre alcaldías, consumo de agua e ïndice de desarrollo, 
+
+El primer gráfico que observamos es del consumo total de agua por alcaldía e Índice de desarrollo,
+
+En el eje de las x tenemos las 16 alcaldias
+
+En el eje de la y tenemos el consumo de agua total en metros cúbicos 
+
+u tenemos de cuatro distintos colores las categorías del índice de desarrollo
+
+
+para este gráfico las alcaldías están ordenadas de acuerdo al consumo de agua de la categoría de índice alto, 
+
+lo principal que ponemos observar de este gráfico es que 
+
+benito juarez, seguioda de miguel hidalgo y cuatemoc, tienen el consumo de agua con las categorías de índices altos. 
+
 
 
 
